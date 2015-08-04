@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Title</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=RobotoDraft:400,500,700,400italic' rel='stylesheet' type='text/css'>
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <style type="text/css">
+            .loading {
+                  top: -8px;
+                  position: absolute;
+            }
+        </style>
+        <link rel="stylesheet" href="static/css/main.css">
+        <script type="text/javascript">
+            window.Materialize = window.Materialize || {};
+        </script>
+    </head>
+    <body>
+        <noscript>
+            <p> you must enable javascript to run this application .</p>
+        </noscript>
+            <header>
+                <nav>
+                    <div class="nav-wrapper">
+                        <a class="button-collapse" href="javascript:void(0)" data-activates="nav-mobile">
+                            <i class="mdi-navigation-menu"></i>
+                        </a>
+                        <ul id="nav-mobile" class="side-nav">
+                            <li class="bold">
+                                <a href="#!/login" class="waves-effect waves-teal">
+                                    <i class="material-icons dp48 left">perm_identity</i><span>Login</span>
+                                </a>
+                            </li>
+                            <li class="bold">
+                                <a href="#!/settings" class="waves-effect waves-teal">
+                                <i class="material-icons left">settings</i><span>Settings</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <div id="shell">
+                </div>
+            </main>
+            <footer class="page-footer">
+                
+            </footer>
+        
+        <script src="vendor/requirejs/require.js" data-main="main"></script>
+    </body>
+</html>

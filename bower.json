@@ -1,0 +1,39 @@
+{
+  "name": "hooly",
+  "version": "0.0.0",
+  "homepage": "https://github.com/somnath-kokane/hooly",
+  "authors": [
+    "Somnath Kokane <in.somnath.kokane@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.2.1",
+    "lodash": "~3.9.3",
+    "underscore": "~1.8.3",
+    "normalize.css": "~3.0.3",
+    "almond": "~0.3.1",
+    "jquery": "~2.1.4",
+    "requirejs": "~2.1.18",
+    "requirejs-text": "~2.0.14",
+    "materialize": "~0.97.0",
+    "jquery-serialize-object": "~2.4.5",
+    "backbone-validation": "~0.11.5"
+  },
+  "exportsOverride": {
+    "backbone-validation": {
+      "/": "dist/backbone-validation-amd.js"
+    },
+    "materialize": {
+      "/": "js",
+      "../static/vendor": "dist",
+      "../../sass/vendor": "sass"
+    }
+  }
+}
