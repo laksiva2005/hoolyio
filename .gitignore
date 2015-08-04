@@ -3,5 +3,4 @@ bower_components
 dist
 node_modules
 sass/vendor
-src/static/vendor
 src/vendor
